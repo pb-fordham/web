@@ -3,9 +3,9 @@
 $(document).ready(function(){
 
 
-  $("#container-header").load("https://pb-fordham.github.io/web/_header.html"); 
-  $("#sidebar").load("https://pb-fordham.github.io/web/_sidebar.html"); 
-  $("footer").load("https://pb-fordham.github.io/web/_footer.html"); 
+  $("#container-header").load("https://raw.githubusercontent.com/pb-fordham/web/main/_header.html"); 
+  $("#sidebar").load("https://raw.githubusercontent.com/pb-fordham/web/main/_sidebar.html"); 
+  $("footer").load("https://raw.githubusercontent.com/pb-fordham/web/main/_footer.html"); 
 
 
  
