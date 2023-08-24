@@ -285,12 +285,13 @@ nav.menu ul li a {
 	border-bottom: 2px solid #bbff00;
 }
 
-nav.menu ul li.current a {
+body#welcome nav.menu ul li.welcome a, 
+body#calendar nav.menu ul li.calendar a, 
+body#exercises nav.menu ul li.exercises a, 
+body#journals nav.menu ul li.journals a, 
+body#projects nav.menu ul li.projects a, 
+body#resources nav.menu ul li.resources a{
 	border-bottom: 2px solid #ff00d9;
-	/*border: 2px solid #bbff00;
-	border-top: 2px solid #6b7943;
-	border-left: 2px solid #6b7943;
-   border-bottom: 1px dotted #666666; */
 }
 
 nav.menu ul li a.icon {
@@ -319,39 +320,6 @@ footer #inner-container {
   border-bottom: none;
 }
 
-/* RANDOMIZER */
-
-button#randomizer {
-	font-size: 1em;
-  display: inline-block;
-  padding: 3px 6px 2px;
-  border-radius: 2px;
-  margin-top: 1.25em;
-  margin-bottom: 1.25em;
-	background: transparent;
-	border: 1px dotted #666666;
-	border-top: 1px solid #ECECEC;
-	border-left: 1px solid #ECECEC;
-	cursor: pointer;
-}
-
-button:focus { outline: 0; }
-
-button#randomizer:active {
-	border: 1px dotted #666666;
-	border-bottom: 1px solid #ECECEC;
-	border-right: 1px solid #ECECEC;
-}
-
-.gray {
-	color: #666666;
-}
-
-#roster li a.selected {
-	opacity: 0.4;
-	/* background: yellow; */
-	/* box-shadow: 0 0 20px 24px yellow; */
-}
 
 
 /* MEDIA QUERIES */
