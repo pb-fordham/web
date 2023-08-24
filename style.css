@@ -174,7 +174,6 @@ img {
 }
 
 #content a {
-  /* color: #666666; */
   color: blue;
   border-bottom: 1px solid blue;
 }
@@ -194,7 +193,12 @@ img {
   padding-left: 0;
   font-size: 16px;
 }
-
+#sidebar a {
+color: #666;
+}
+#sidebar a:hover {
+color: blue;
+}
 #sidebar .text {
 	padding-right: 1em;
 }
@@ -285,12 +289,12 @@ nav.menu ul li a {
 	border-bottom: 2px solid #bbff00;
 }
 
-body#welcome nav.menu ul li.welcome a, 
-body#calendar nav.menu ul li.calendar a, 
-body#exercises nav.menu ul li.exercises a, 
-body#journals nav.menu ul li.journals a, 
-body#projects nav.menu ul li.projects a, 
-body#resources nav.menu ul li.resources a{
+body#welcome nav.menu ul li a.welcome, 
+body#calendar nav.menu ul li a.calendar, 
+body#exercises nav.menu ul li a.exercises, 
+body#journals nav.menu ul li a.journals, 
+body#projects nav.menu ul li a.projects, 
+body#resources nav.menu ul li a.resources {
 	border-bottom: 2px solid #ff00d9;
 }
 
