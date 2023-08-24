@@ -1,2 +1,2 @@
-# web
-VART 2400 Fundamentals of Website Design
+# VART 2400 Fundamentals of Website Design
+Class Website
