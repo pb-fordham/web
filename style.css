@@ -330,33 +330,22 @@ footer #inner-container {
 
 @media screen and (max-width: 800px) {
 
-	#banner {
-		display: none;
-	}
 
 	#sidebar, #content {
 		width: 100%;
 	}
 
+	#content {
+		padding-left:0;
+
 	#sidebar {
 		position: static;
-		border: 0;
-		border-top: 1px solid #000;
-		padding: 1em 0 2em;
+		border-bottom: 1px dotted #666666;
+		padding: 2em 0;
 	}
 
 	#inner-container {
 	  display: block;
-	}
-
-	nav.menu {
-		margin-top: 0.25em;
-		margin-bottom: 0;
-	}
-
-	nav.menu ul li {
-		margin: 0.5em;
-		margin-bottom: 0.25em;
 	}
 
 }
