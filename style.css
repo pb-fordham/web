@@ -337,7 +337,7 @@ footer #inner-container {
 
 	#content {
 		padding-left:0;
-
+	}
 	#sidebar {
 		position: static;
 		border-bottom: 1px dotted #666666;
@@ -346,6 +346,9 @@ footer #inner-container {
 
 	#inner-container {
 	  display: block;
+	}
+	nav.menu {
+    font-size: 14px;
 	}
 
 }
