@@ -352,93 +352,12 @@ footer #inner-container {
     font-size: 14px;
 	}
 
+	header, #container {
+	padding: 0 25px;
+	}
+
 }
 
-.print {
-	display: none !important;
-}
 
-@media print {
 
-	.print {
-		display: block !important;
-	}
 
-	body {
-		font-size: 15px;
-	}
-
-	#sidebar {
-		font-size: 10px;
-		width: 25%;
-		border-left-color: #666666;
-		padding-left: 1.5em;
-	}
-
-	.house {
-		border-color: #666666;
-	}
-
- #banner, header, button#randomizer, .site {
-	 display: none !important;
- }
-
- #content {
-	 width: 75%;
- }
-
- #content figure img {
-	 border: 1px dotted #666666;
- }
-
- #content h3 {
-	 border: 1px dotted #666666;
-	 border-radius: 0;
- }
-
- #content, #sidebar {
-	 padding-top: 0;
- }
-
- /* FOR TYPICAL SHEET WITHOUT SIDEBAR (LIKE SIGN IN) */
-
- #sidebar, #sparrow {
-	 display: none !important;
- }
-
- #content {
-	 width: 100%;
- }
-
- #inner-container {
-	 border-bottom: 0;
- }
-
- /* FOR INTRODUCTION SURVEY */
-
- /* .house {
-	 border-color: #666666;
-	 border-radius: 50%;
- }
-
- .house img {
-	 opacity: 0;
- }
-
- #inner-container {
-	 border-bottom: 0;
- }
-
- #sparrow {
-	 display: none;
- }
-
- #sidebar p, #sidebar ul, #sidebar center, #sidebar span, #sidebar div {
-	 display: none;
- }
-
- #sidebar {
-	 border-left: 0;
- } */
-
-}
