@@ -311,7 +311,7 @@ nav.menu ul li a.icon img {
 /* FOOTER */
 
 footer {
-  padding-top: 1em;
+  padding: 1em 0;
 }
 footer #content {
   padding: 5px;
@@ -340,6 +340,7 @@ footer #inner-container {
 	}
 	#sidebar {
 		position: static;
+		border-right: 0;
 		border-bottom: 1px dotted #666666;
 		padding: 2em 0;
 	}
