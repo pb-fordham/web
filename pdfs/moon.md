@@ -35,4 +35,16 @@ David R. Scott Apollo 15
 Charles M. Duke Apollo 16
 Harrison H. Schmitt Apollo 17
 
+---
+
+Phases of the Moon
+New
+Waxing Crescent
+First Quarter
+Waxing Bibbous
+Full
+Waning Gibbous
+Third Quarter
+Waning Crescent
+
 
