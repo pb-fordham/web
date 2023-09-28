@@ -42,6 +42,17 @@ Robery Wray, The Atlantic, March 1922
 
 ---
 
+The Phases of the Moon
+
+New
+Waxing Crescent
+First Quarter
+Waxing Gibbous
+Full
+Waning Gibbous
+Third Quarter
+Waning Crescent
+
 
 
 
