@@ -1,0 +1,98 @@
+body{
+
+    background-image:url('images/wavebackground.gif');
+    
+}
+
+h1{
+    font-family: "remedy", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #d800b4;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+p{
+    color: #d800b4;
+    text-align: center;
+    font-size: 20px;
+    padding:1%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    background-color: black;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 100px;
+    
+ 
+}
+
+.fullbackground{
+    background-color: #d800b4;
+    margin: 5%;
+    padding:1%;
+    border-radius: 100px;
+
+/* NEW */
+width: 90%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background-color: black;
+    border-radius: 100px;
+    overflow: hidden;
+    width:95%;
+    margin:0 auto;
+    }
+
+.grid-item{
+    display: inline-grid;
+    padding:0;
+    background-color: #d800b4;
+    margin: 50px;
+    justify-content: center;
+    overflow:hidden;
+/* remove height and width    
+    height: 500px;
+    width: 500px; */ 
+    border-radius: 50%;
+/* NEW */
+background-size: contain;
+aspect-ratio: 1/1;
+}    
+
+h2{
+
+    color: #d800b4;
+    text-align: center;
+/* NEW */   
+    font-size: 10vw;
+    font-family: "remedy", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding:5%;
+    margin-top: 15px;
+
+}
+/* NEW */
+.one {
+    background-image:url(images/1.gif);
+}
+.two {
+    background-image:url(images/2.gif);
+}
+.three {
+    background-image:url(images/3.gif);
+}
+.four {
+    background-image:url(images/4.gif);
+}
